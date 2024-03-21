@@ -1,0 +1,35 @@
+.hometext a {
+    text-decoration: underline;
+    color: #9e235c;
+}
+
+#menu-img {
+    width: 298px;
+    height: 421px;
+    margin: 10px 0 10px 0;
+}
+
+.menu-info {
+    width: 298px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+#buttons {
+    justify-content: space-between;
+    width: 100%;
+    display: flex;
+    padding: 0;
+    margin-top: 85px;
+}
+
+.link {
+    color: #555;
+    font-weight: bold;
+}
+
+.link:hover {
+    color: black;
+    cursor: pointer;
+}

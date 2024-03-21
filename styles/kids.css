@@ -1,0 +1,310 @@
+body.kids {
+    background: url(/images/kids/kids_bg.jpg) top center no-repeat fixed;
+}
+
+.banket.phone-number {
+    background: url(/images/banket/phone-bg-2.png) no-repeat;
+    height: 64px;
+    width: 161px;
+}
+
+.phones {
+    padding-left: 570px;
+}
+
+.base {
+    display: block;
+}
+
+#base-header {
+    color: #9e235c;
+    font-size: 24px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.first-row {
+    justify-content: space-between;
+    padding-top: 25px;
+}
+
+.buttons-row {
+    height: 32px;
+    display: flex;
+    flex-direction: row;
+}
+
+.buttons-row .button {
+    /* border: none; */
+    background: none;
+    cursor: pointer;
+    width: 168px;
+    height: 12px;
+    padding: 10px 50px 10px 0;
+    margin: 0;
+    font: normal 16px "Trebuchet MS", Arial, sans-serif;
+    margin-right: 2%;
+}
+
+.button::after {
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    margin-top: 4px;
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    left: 0;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.view-photos {
+    color: #066539;
+    border-bottom: solid 1px #066539;
+}
+
+.view-photos::after {
+    border-top: 12px solid #066539;
+}
+
+.view-route {
+    color: #83bd3c;
+    border-bottom: solid 1px #83bd3c;
+}
+
+.view-route::after {
+    border-top: 12px solid #83bd3c;
+}
+
+.delivery-card {
+    width: 434px;
+    height: 212px;
+    background-color: #8cc63e;
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.delivery-card .text {
+    width: 47%;
+    display: flex;
+    margin-right: 2%;
+    flex-direction: column;
+}
+
+.delivery-card .text #text1 {
+    font-size: 16px;
+    line-height: 17px;
+    font-weight: 600;
+    color: white;
+}
+
+.delivery-card .text #text2 {
+    font-size: 16px;
+    margin-top: 16px;
+    color: white;
+}
+
+.delivery-card .text #text3 {
+    font-size: 28px;
+    line-height: 26px;
+    font-weight: 600;
+    margin-top: 4px;
+    color: white;
+    width: 98%;
+}
+
+.delivery-number.phone-number {
+    background-color: #da4a17;
+    padding: 18px 15px 14px;
+    height: 59px;
+    margin-top: 13px;
+}
+
+#actionform {
+    margin-right: 6px;
+    width: 48%;
+}
+
+#actionform label {
+    color: white;
+    line-height: 1.3em;
+    margin: 4px 0 4px 0;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#actionform input {
+    /* width: 201px; */
+    padding: 3px;
+    margin: 3px 0 3px 0;
+    width: 201px;
+    height: 18px;
+    border: none;
+    font-size: 13px;
+    line-height: 18px;
+    font-family: Arial;
+}
+
+#submit {
+    background-color: #069e2f;
+    color: white;
+    border: none;
+    font: normal 16px "Trebuchet MS", Arial, sans-serif;
+    font-weight: 600;
+    width: 204px;
+    height: 54px;
+    margin-top: 19px;
+}
+
+.second-row {
+    margin-top: 50px;
+}
+
+li {
+    background: url("/images/b-1.png") no-repeat 3px 3px;
+    padding: 0px 10px 7px 30px;
+    list-style: none;
+    font: normal 15px "Trebuchet MS", Arial, sans-serif;
+    color: #555;
+    line-height: 22px;
+    margin: 0;
+    border: 0;
+    outline: 0;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+.second-row-list {
+    width: 65%;
+}
+
+.second-row-list li {
+    background: url("/images/banket/b-2.png") no-repeat 3px 3px;
+}
+
+.reviews h3 {
+    color: #14542a;
+    padding: 0px 20px 7px 0;
+    font: bold 22px/24px "Trebuchet MS", sans-serif;
+    margin: 0;
+}
+
+.reviews li a {
+    text-decoration: none;
+    color: #555;
+}
+
+.reviews li {
+    margin: 0;
+    padding: 0;
+    padding-left: 20px;
+}
+
+.reviews li a:hover {
+    color: black;
+}
+
+.links-and-rating {
+    display: flex;
+    flex-direction: row;
+}
+
+.rating {
+    background: url(/images/ratebg.png) no-repeat;
+    width: 34px;
+    height: 40px;
+    padding: 5px 4px 4px 5px;
+    color: #fff;
+    font-size: 15px;
+    line-height: 15px;
+    margin-left: 30px;
+}
+
+.third-row {
+    margin-top: 57px;
+    justify-content: space-between;
+    /* height: 157px; */
+}
+
+.third-row .col1 {
+    width: 700px;
+}
+
+.third-row .col2 {
+    width: 225px;
+}
+
+.ind-menu {
+    background: url(/images/kids/indmenu.png) no-repeat;
+    color: white;
+    font-family: "Trebuchet MS";
+    height: 116px;
+    padding: 44px 34px 10px 38px;
+    width: 100px;
+    margin: 0 26px 26px 0;
+    text-align: center;
+}
+
+.im1 {
+    color: #a2b43d;
+    font-size: 14px;
+    line-height: 15px;
+}
+
+.im2 {
+    font-size: 25px;
+    font-weight: 200;
+    line-height: 26px;
+    padding-top: 7px;
+    display: inline-block;
+}
+
+.im3 {
+    font-size: 14px;
+    line-height: 15px;
+    font-weight: bold;
+}
+
+.prices li {
+    background: url(/images/banket/pdf.png) no-repeat;
+    display: block;
+    padding-left: 50px;
+    margin-left: 700px;
+}
+
+.prices a {
+    font-size: 14px;
+    line-height: 17px;
+    text-decoration: none;
+    color: #555;
+}
+
+.prices a:hover {
+    color: black;
+    cursor: pointer;
+}
+
+.first-row-list {
+    width: 464px;
+}
+
+#invite {
+    line-height: 1.5;
+    font: normal 14px "Trebuchet MS", Arial, sans-serif;
+    color: #555;
+    margin: 10px 27px 12px 0px;
+}
+
+.big-list li {
+    background: url("/images/banket/b-2.png") no-repeat 3px 3px;
+}

@@ -1,0 +1,36 @@
+.content {
+    border-top: 1px solid #e1e1e1;
+    padding-top: 15px;
+    margin-top: 15px;
+}
+
+#delivery-link {
+    text-decoration: none;
+    font-size: 18px;
+    color: #036236;
+    font-weight: bold;
+}
+
+#buttons {
+    justify-content: space-between;
+    width: 100%;
+    display: flex;
+    padding: 0;
+    margin-top: 85px;
+}
+
+.link {
+    color: #555;
+    font-weight: bold;
+}
+
+.link:hover {
+    color: black;
+    cursor: pointer;
+}
+
+#date {
+    color: #777;
+    font-size: 13px;
+    margin: 0;
+}

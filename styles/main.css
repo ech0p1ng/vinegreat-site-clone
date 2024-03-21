@@ -1,0 +1,38 @@
+.hometext ul li {
+    list-style: none;
+    background: url(/images/b-1.png) no-repeat 3px 3px;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.hometext ul {
+    margin: 0;
+    padding: 0;
+    padding-right: 5px;
+    margin-bottom: 8px;
+}
+
+.hometext ul li {
+    color: #9e235c;
+    font-size: 16px;
+    padding-left: 20px;
+}
+
+.hometext ul li a {
+    color: darkslategray;
+    text-decoration: none;
+}
+
+.hometext ul li a:hover {
+    color: black;
+}
+
+.inline-accent {
+    font: 14px "Trebuchet MS", Arial, sans-serif;
+    color: #9e235c;
+    font-size: 120%;
+}
+.slogan {
+    font: bold 16px "Trebuchet MS", Arial, sans-serif;
+    color: #9e235c;
+}

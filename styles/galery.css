@@ -1,0 +1,97 @@
+li {
+    list-style: none;
+    font: normal "Trebuchet MS", Arial, sans-serif;
+    color: #555;
+    /* line-height: 22px; */
+    margin: 0;
+    border: 0;
+    outline: 0;
+}
+
+li:hover {
+    color: black;
+    cursor: pointer;
+}
+
+.small-list li {
+    background: url("/images/b-1.png") no-repeat 3px 3px;
+    padding: 0px 10px 7px 20px;
+}
+
+.big-list li {
+    background: url("/images/banket/b-2.png") no-repeat 3px 3px;
+    padding: 0px 10px 7px 30px;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+.info-list {
+    color: #666;
+    font: normal 14px "Trebuchet MS", Arial, sans-serif;
+    margin-top: 44px;
+    font: 14px;
+}
+
+.galery-cell {
+    width: 165px;
+    display: block;
+    margin: 0 10px 10px 0;
+}
+
+.photo {
+    width: 165px;
+    height: 116px;
+    background: #f4e2cc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.galery-cell .description {
+    color: #555;
+    line-height: 13px;
+    font: bold 14px "Trebuchet MS", Arial, sans-serif;
+    margin: 0;
+    margin-top: 8px;
+}
+
+.galery-cell .description:hover {
+    color: black;
+    cursor: pointer;
+}
+
+.photo img {
+    /* max-width: 144px; */
+    max-height: 96px;
+}
+
+.content {
+    display: block;
+}
+
+.galery-row {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 35px;
+}
+
+#buttons {
+    justify-content: space-between;
+    width: 100%;
+    display: flex;
+    padding: 0;
+    margin-top: 85px;
+}
+
+.link {
+    color: #555;
+    font-weight: bold;
+}
+
+.link:hover {
+    color: black;
+    cursor: pointer;
+}

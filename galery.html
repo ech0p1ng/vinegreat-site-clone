@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Ресторан «Винегрет», Санкт-Петербург</title>
+        <link type="image/x-icon" href="favicon.ico" rel="shortcut icon" />
+        <link type="image/x-icon" href="favicon.ico" rel="icon" />
+        <link rel="stylesheet" href="styles/base.css" />
+        <link rel="stylesheet" href="styles/galery.css" />
+    </head>
+    <body>
+        <div class="background">
+            <div class="header">
+                <a href="index.html">
+                    <img class="logo" src="images/logo.png" />
+                </a>
+                <div class="header-info">
+                    <div class="info">
+                        <div class="address">
+                            <a>Санкт-Петербург, Васильевский остров, </a>
+                            <a href="http://www.vinegreat.ru/ru/adres/#map"><u>Морская набережная, 9</u></a>
+                            <img src="images/mapsign.png" />
+                            <br />
+                            <a>Ежедневно <b>с 12 до 24</b></a>
+                        </div>
+
+                        <div class="socials">
+                            <a class="facebook" href="https://www.facebook.com/vinegreatrest" title="FaceBook"></a>
+                            <a class="vk" href="https://vk.com/vinegreat_rest" title="ВКонтакте"></a>
+                            <a class="instagram" href="http://instagram.com/vinegreat_rest" title="Instagram"></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="phones">
+                    <a class="phone-first phone-number" href="tel:+78123551867">(812) 355-18-67</a>
+                    <a class="phone-delivery phone-number"> Служба доставки 980-980-1 </a>
+                </div>
+                <div class="slides">
+                    <img class="slide" src="images/20171030110801419m.jpg" />
+                    <img class="colorline" src="images/colorline.png" />
+                </div>
+            </div>
+            <div class="main">
+                <div class="dropdown-buttons-panel">
+                    <!-- Главная -->
+                    <a class="dropdown" id="main" href="index.html">
+                        <button class="dropdown-button" onclick="document.location='index.html'">Главная</button>
+                        <div class="dropdown-content">
+                            <a>Контакты и реквизиты</a>
+                            <a>Описание процесса передачи данных</a>
+                            <a>Политика конфиденциальности</a>
+                            <a>Публичная оферта</a>
+                            <a>Способы оплаты</a>
+                        </div>
+                    </a>
+                    <!-- Новости -->
+                    <div class="dropdown" onclick="document.location='news.html'">
+                        <button class="dropdown-button">Новости</button>
+                        <div class="dropdown-content">
+                            <a>2020</a>
+                        </div>
+                    </div>
+                    <!-- Меню -->
+                    <div class="dropdown" id="menu" onclick="document.location='menu.html'">
+                        <button class="dropdown-button">Меню</button>
+                        <div class="dropdown-content">
+                            <a>Основное меню</a>
+                            <a>Постное меню</a>
+                            <a>Барная карта</a>
+                            <a>Детское меню</a>
+                            <a>Банкетное меню</a>
+                        </div>
+                    </div>
+                    <!-- Банкет -->
+                    <button class="dropdown-button" onclick="document.location='banket.html'">Банкет</button>
+                    <!-- Детям -->
+                    <button class="dropdown-button" onclick="document.location='kids.html'">Детям</button>
+                    <!-- Галерея -->
+                    <div class="dropdown" id="galery" onclick="document.location='galery.html'">
+                        <button class="dropdown-button" id="main-dropdown-button">Галерея</button>
+                        <div class="dropdown-content">
+                            <a>Интерьер нового зала (банкетного) в 2022 году</a>
+                            <a>Интерьер ресторана в 2021 году</a>
+                            <a>Интерьер ресторана 2018-2019</a>
+                            <a>Мастер-класс 03 ноября 2019 г.</a>
+                            <a>Фото блюд 31 октября 2019 г.</a>
+                            <a>День рождение 05 октября 2019 г.</a>
+                            <a>Празднование 9 мая в 2019 году</a>
+                            <a>Юбилей - 01 декабря 2017 год</a>
+                            <a>Новое меню A'la Russe</a>
+                            <a>Интерьер ресторана в 2017 году</a>
+                            <a>Фото блюд</a>
+                            <a>Женский день 8 марта 2017</a>
+                            <a>Фотоотчет 23 октября 2016 мастер-класс "Готовим пирожное "Картошка"</a>
+                            <a>Фотоотчет 16 октября 2016 "Школа юных барменов"</a>
+                            <a>Фотоотчет 09 октября 2016 мастер-класс "Готовим канапе"</a>
+                            <a>Фотоотчет 24 апреля 2016 мастер-класс "Готовим воздушные кексы"</a>
+                            <a>Фотоотчет 17 апреля 2016 мастер-класс "Готовим сладкое печенье"</a>
+                            <a>Фотоотчет 10 апреля 2016 мастер-класс "Готовим эклеры"</a>
+                            <a>Фотоотчет 3 апреля 2016 мастер-класс "Учимся готовить пиццу"</a>
+                            <a>Фото банкетного зала</a>
+                            <a>Нам 3 года!</a>
+                            <a>Наша кухня</a>
+                            <a>Интерьер банкетного зала</a>
+                            <a>Открытие ресторана </a>
+                        </div>
+                    </div>
+                    <!-- Контакты -->
+                    <button class="dropdown-button" onclick="document.location='contacts.html'">Контакты</button>
+                    <!-- Отзывы -->
+                    <button class="dropdown-button" onclick="document.location='reviews.html'">Отзывы</button>
+                    <!-- English -->
+                    <button class="dropdown-button" id="change-language">
+                        <img src="images/flagen.png" />
+                        English
+                    </button>
+                </div>
+                <div class="base">
+                    <div class="info">
+                        <div class="info-header">
+                            <ul class="small-list info-list">
+                                <li>Интерьер нового зала (банкетного) в 2022 году</li>
+                                <li>Интерьер ресторана в 2021 году</li>
+                                <li>Интерьер ресторана 2018-2019</li>
+                                <li>Мастер-класс 03 ноября 2019 г.</li>
+                                <li>Фото блюд 31 октября 2019 г.</li>
+                                <li>День рождение 05 октября 2019 г.</li>
+                                <li>Празднование 9 мая в 2019 году</li>
+                                <li>Юбилей - 01 декабря 2017 год</li>
+                                <li>Интерьер ресторана в 2017 году</li>
+                                <li>Фото блюд</li>
+                                <li>Женский день 8 марта 2017</li>
+                                <li>Фотоотчет 23 октября 2016 мастер-класс "Готовим пирожное "Картошка"</li>
+                                <li>Фотоотчет 16 октября 2016 "Школа юных барменов"</li>
+                                <li>Фотоотчет 09 октября 2016 мастер-класс "Готовим канапе"</li>
+                                <li>Фотоотчет 24 апреля 2016 мастер-класс "Готовим воздушные кексы"</li>
+                                <li>Фотоотчет 17 апреля 2016 мастер-класс "Готовим сладкое печенье"</li>
+                                <li>Фотоотчет 10 апреля 2016 мастер-класс "Готовим эклеры"</li>
+                                <li>Фотоотчет 3 апреля 2016 мастер-класс "Учимся готовить пиццу"</li>
+                                <li>Фото банкетного зала</li>
+                                <li>Нам 3 года!</li>
+                                <li>Наша кухня</li>
+                                <li>Интерьер банкетного зала</li>
+                                <li>Открытие ресторана</li>
+                            </ul>
+                        </div>
+                        <a href="http://dostavka.vinegreat.ru/" id="order-online">
+                            <img src="images/online.jpg" />
+                        </a>
+                        <div class="feedback-block">
+                            <div class="feedback-block-header">
+                                <h3 id="feedback-block-title">Отзывы</h3>
+                                <div class="respmark">
+                                    <h3 id="rating">8,1</h3>
+                                </div>
+                            </div>
+                            <ul>
+                                <li class="restoclub">
+                                    <a href="http://www.restoclub.ru/site/all/main/27075">Мы на Restoclub</a>
+                                </li>
+                                <li class="allcafe">
+                                    <a href="http://spb.allcafe.ru/restaurants/vinegret"> Мы на allcafe </a>
+                                </li>
+                            </ul>
+                            <a class="print-page">Распечатать страницу</a>
+                        </div>
+                    </div>
+                    <div class="about">
+                        <h1>Галерея</h1>
+                        <div class="content">
+                            <span>Альбомов в разделе 24, фотографий 1478</span>
+                            <br />
+                            <br />
+                            <div class="galery">
+                                <div class="galery-row">
+                                    <div class="galery-cell">
+                                        <div class="photo">
+                                            <img src="images/galery/1.jpg" />
+                                        </div>
+                                        <p class="description">
+                                            <a>Интерьер нового зала (банкетного) в 2022 году</a>
+                                        </p>
+                                    </div>
+                                    <div class="galery-cell">
+                                        <div class="photo">
+                                            <img src="images/galery/2.jpg" />
+                                        </div>
+                                        <p class="description">
+                                            <a>Интерьер ресторана в 2021 году</a>
+                                        </p>
+                                    </div>
+                                    <div class="galery-cell">
+                                        <div class="photo">
+                                            <img src="images/galery/3.jpg" />
+                                        </div>
+                                        <p class="description">
+                                            <a>Интерьер ресторана 2018-2019</a>
+                                        </p>
+                                    </div>
+                                    <div class="galery-cell">
+                                        <div class="photo">
+                                            <img src="images/galery/4.jpg" />
+                                        </div>
+                                        <p class="description">
+                                            <a>Мастер-класс 03 ноября 2019 г.</a>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="galery-row">
+                                    <div class="galery-cell">
+                                        <div class="photo">
+                                            <img src="images/galery/5.jpg" />
+                                        </div>
+                                        <p class="description">
+                                            <a>Фото блюд 31 октября 2019 г.</a>
+                                        </p>
+                                    </div>
+                                    <div class="galery-cell">
+                                        <div class="photo">
+                                            <img src="images/galery/6.jpg" />
+                                        </div>
+                                        <p class="description">
+                                            <a>День рождение 05 октября 2019 г.</a>
+                                        </p>
+                                    </div>
+                                    <div class="galery-cell">
+                                        <div class="photo">
+                                            <img src="images/galery/7.jpg" />
+                                        </div>
+                                        <p class="description">
+                                            <a>Празднование 9 мая в 2019 году</a>
+                                        </p>
+                                    </div>
+                                    <div class="galery-cell">
+                                        <div class="photo">
+                                            <img src="images/galery/8.jpg" />
+                                        </div>
+                                        <p class="description">
+                                            <a>Юбилей - 01 декабря 2017 год</a>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="galery-row">
+                                    <div class="galery-cell">
+                                        <div class="photo">
+                                            <img src="images/galery/9.jpg" />
+                                        </div>
+                                        <p class="description">
+                                            <a>Новое меню A'la Russe</a>
+                                        </p>
+                                    </div>
+                                    <div class="galery-cell">
+                                        <div class="photo">
+                                            <img src="images/galery/10.jpg" />
+                                        </div>
+                                        <p class="description">
+                                            <a>Интерьер ресторана в 2017 году</a>
+                                        </p>
+                                    </div>
+                                    <div class="galery-cell">
+                                        <div class="photo">
+                                            <img src="images/galery/11.jpg" />
+                                        </div>
+                                        <p class="description">
+                                            <a>Фото блюд</a>
+                                        </p>
+                                    </div>
+                                    <div class="galery-cell">
+                                        <div class="photo">
+                                            <img src="images/galery/12.jpg" />
+                                        </div>
+                                        <p class="description">
+                                            <a>Женский день 8 марта 2017</a>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="galery-row">
+                                    <div class="galery-cell">
+                                        <div class="photo">
+                                            <img src="images/galery/13.jpg" />
+                                        </div>
+                                        <p class="description">
+                                            <a>Фотоотчет 23 октября 2016 мастер-класс "Готовим пирожное "Картошка"...</a>
+                                        </p>
+                                    </div>
+                                    <div class="galery-cell">
+                                        <div class="photo">
+                                            <img src="images/galery/14.jpg" />
+                                        </div>
+                                        <p class="description">
+                                            <a>Фотоотчет 16 октября 2016 "Школа юных барменов"</a>
+                                        </p>
+                                    </div>
+                                    <div class="galery-cell">
+                                        <div class="photo">
+                                            <img src="images/galery/15.jpg" />
+                                        </div>
+                                        <p class="description">
+                                            <a>Фотоотчет 09 октября 2016 мастер-класс "Готовим канапе"</a>
+                                        </p>
+                                    </div>
+                                    <div class="galery-cell">
+                                        <div class="photo">
+                                            <img src="images/galery/16.jpg" />
+                                        </div>
+                                        <p class="description">
+                                            <a>Фотоотчет 24 апреля 2016 мастер-класс "Готовим воздушные кексы"...</a>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="galery-row">
+                                    <div class="galery-cell">
+                                        <div class="photo">
+                                            <img src="images/galery/17.jpg" />
+                                        </div>
+                                        <p class="description">
+                                            <a>Фотоотчет 17 апреля 2016 мастер-класс "Готовим сладкое печенье"...</a>
+                                        </p>
+                                    </div>
+                                    <div class="galery-cell">
+                                        <div class="photo">
+                                            <img src="images/galery/18.jpg" />
+                                        </div>
+                                        <p class="description">
+                                            <a>Фотоотчет 10 апреля 2016 мастер-класс "Готовим эклеры"</a>
+                                        </p>
+                                    </div>
+                                    <div class="galery-cell">
+                                        <div class="photo">
+                                            <img src="images/galery/19.jpg" />
+                                        </div>
+                                        <p class="description">
+                                            <a>Фотоотчет 3 апреля 2016 мастер-класс "Учимся готовить пиццу"...</a>
+                                        </p>
+                                    </div>
+                                    <div class="galery-cell">
+                                        <div class="photo">
+                                            <img src="images/galery/20.png" />
+                                        </div>
+                                        <p class="description">
+                                            <a>Фото банкетного зала</a>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="galery-row">
+                                    <div class="galery-cell">
+                                        <div class="photo">
+                                            <img src="images/galery/21.jpg" />
+                                        </div>
+                                        <p class="description">
+                                            <a>Нам 3 года!</a>
+                                        </p>
+                                    </div>
+                                    <div class="galery-cell">
+                                        <div class="photo">
+                                            <img src="images/galery/22.jpg" />
+                                        </div>
+                                        <p class="description">
+                                            <a>Наша кухня</a>
+                                        </p>
+                                    </div>
+                                    <div class="galery-cell">
+                                        <div class="photo">
+                                            <img src="images/galery/23.jpg" />
+                                        </div>
+                                        <p class="description">
+                                            <a>Интерьер банкетного зала</a>
+                                        </p>
+                                    </div>
+                                    <div class="galery-cell">
+                                        <div class="photo">
+                                            <img src="images/galery/24.jpg" />
+                                        </div>
+                                        <p class="description">
+                                            <a>Открытие ресторана</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div id="buttons">
+                                <a class="link">←</a>
+                                <a class="link"> Интерьер нового зала (банкетного) в 2022 году →</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="footer-main-contacts">
+                    <div class="footer-address">
+                        <a>
+                            Санкт-Петербург, Васильевский остров,
+                            <a href="http://www.vinegreat.ru/ru/adres/#map">
+                                <u>Морская набережная, 9</u>
+                            </a>
+
+                            <br />
+                            <a>Ежедневно <b>с 12 до 24</b></a>
+                            <br />
+                            <br />
+                            <strong>
+                                <a href="tel:+78123551867">(812) 355-18-67</a>
+                            </strong>
+                            <br />
+                            <a href="mailto:info@vinegreat.ru"> info@vinegreat.ru </a>
+                        </a>
+                    </div>
+                    <div class="footer-siteinfo">
+                        <img class="footer-logo" src="images/logo.png" />
+                        <div class="footer-copyright">
+                            <a>© Ресторан «Винегрет», 2024. Все права защищены</a>
+                            <br />
+                            <a>Настоящий сайт имеет информационно-справочный характер и ни при каких обстоятельствах не является публичной офертой.</a>
+
+                            <br />
+                            <a id="site-map" href="http://www.vinegreat.ru/ru/sitemap/">Карта сайта</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
