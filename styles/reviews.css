@@ -1,0 +1,191 @@
+.content {
+    display: block;
+}
+
+.thanks {
+    line-height: 1.5;
+    margin: 8px 27px 12px 0px;
+    font: normal 14px "Trebuchet MS", Arial, sans-serif;
+    color: #555;
+}
+
+.info {
+    padding-top: 20px;
+}
+
+.socials {
+    width: 206px;
+    right: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+    /* margin-bottom: 50px; */
+}
+
+.socials a {
+    height: 16px;
+    width: 16px;
+    background-size: 16px;
+    background-repeat: none;
+    /* margin-right: ; */
+}
+
+.socials .facebook {
+    background-image: url(/images/facebook.png);
+}
+
+.socials .vk {
+    background-image: url(/images/vk.png);
+}
+
+.socials .instagram {
+    background-image: url(/images/ig.png);
+}
+
+.socials .twitter {
+    background-image: url(/images/twitter.png);
+}
+
+.socials .ok {
+    background-image: url(/images/odnoklassniki.png);
+}
+
+.socials .mailru {
+    background-image: url(/images/mailru.png);
+}
+
+.socials .livejournal {
+    background-image: url(/images/livejournal.png);
+}
+/* .share .socials {
+    width: 100%;
+}
+
+.share .socials a {
+    margin-left: 5px;
+} */
+
+.socials .share {
+    color: #555;
+    font: 86%/1.4545em Arial, sans-serif;
+    margin: 0 11px 0 11px;
+}
+
+.socials .share:hover {
+    color: red;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.share {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#share-button {
+    color: #555;
+    font: 10px Arial, sans-serif;
+    margin-right: 5px;
+}
+
+#share-button:hover {
+    color: red;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.share-dropdown-content {
+    display: none;
+    padding: 15px 15px 15px 15px;
+}
+
+.share-dropdown-onclick:hover .share-dropdown-content {
+    display: block;
+    background-color: white;
+    box-shadow: 0px 0px 10px #888;
+    box-sizing: border-box;
+    border: 1px solid #888;
+    position: absolute;
+}
+.share-dropdown-content ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.share-dropdown-content a {
+    color: #555;
+    font: 10px Arial, sans-serif;
+}
+
+.share-dropdown-content li {
+    text-decoration: underline;
+    margin-top: 8px;
+    background-repeat: no-repeat;
+    background-size: 16px 16px;
+    width: 100%;
+    padding: 0 5px 7px 23px;
+    align-items: center;
+}
+
+.share-dropdown-content li a {
+    color: #1a3dc1;
+}
+.share-dropdown-content li a:hover {
+    cursor: pointer;
+    color: red;
+}
+
+.share-dropdown-onclick {
+    display: block;
+    margin-left: 11px;
+}
+
+.share-dropdown-content #vk {
+    background-image: url(/images/vk.png);
+}
+
+.share-dropdown-content #odnoklassniki {
+    background-image: url(/images/odnoklassniki.png);
+}
+
+.share-dropdown-content #twitter {
+    background-image: url(/images/twitter.png);
+}
+
+.share-dropdown-content #facebook {
+    background-image: url(/images/facebook.png);
+}
+
+.share-dropdown-content #mailru {
+    background-image: url(/images/mailru.png);
+}
+
+.share-dropdown-content #livejournal {
+    background-image: url(/images/livejournal.png);
+}
+
+.share-dropdown-content #googleplus {
+    background-image: url(/images/googleplus.png);
+}
+
+#buttons {
+    justify-content: space-between;
+    width: 100%;
+    display: flex;
+    padding: 0;
+    margin-top: 35px;
+}
+
+.link {
+    color: #555;
+    font-weight: bold;
+}
+
+.link:hover {
+    color: black;
+    cursor: pointer;
+}

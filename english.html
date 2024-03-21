@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Ресторан «Винегрет», Санкт-Петербург</title>
+        <link type="image/x-icon" href="favicon.ico" rel="shortcut icon" />
+        <link type="image/x-icon" href="favicon.ico" rel="icon" />
+        <link rel="stylesheet" href="styles/base.css" />
+        <link rel="stylesheet" href="styles/english.css" />
+    </head>
+    <body>
+        <div class="background">
+            <div class="header">
+                <a href="index.html">
+                    <img class="logo" src="images/logo.png" />
+                </a>
+                <div class="header-info">
+                    <div class="info">
+                        <div class="address">
+                            <a>Санкт-Петербург, Васильевский остров, </a>
+                            <a href="http://www.vinegreat.ru/ru/adres/#map"><u>Морская набережная, 9</u></a>
+                            <img src="images/mapsign.png" />
+                            <br />
+                            <a>Ежедневно <b>с 12 до 24</b></a>
+                        </div>
+
+                        <div class="socials">
+                            <a class="facebook" href="https://www.facebook.com/vinegreatrest" title="FaceBook"></a>
+                            <a class="vk" href="https://vk.com/vinegreat_rest" title="ВКонтакте"></a>
+                            <a class="instagram" href="http://instagram.com/vinegreat_rest" title="Instagram"></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="phones">
+                    <a class="phone-first phone-number" href="tel:+78123551867">(812) 355-18-67</a>
+                    <a class="phone-delivery phone-number"> Служба доставки 980-980-1 </a>
+                </div>
+                <div class="slides">
+                    <img class="slide" src="images/20171030110801419m.jpg" />
+                    <img class="colorline" src="images/colorline.png" />
+                </div>
+            </div>
+            <div class="main">
+                <div class="dropdown-buttons-panel">
+                    <!-- Главная -->
+                    <a class="dropdown" id="main" href="index.html">
+                        <button class="dropdown-button" onclick="document.location='index.html'">Главная</button>
+                        <div class="dropdown-content">
+                            <a>Контакты и реквизиты</a>
+                            <a>Описание процесса передачи данных</a>
+                            <a>Политика конфиденциальности</a>
+                            <a>Публичная оферта</a>
+                            <a>Способы оплаты</a>
+                        </div>
+                    </a>
+                    <!-- Новости -->
+                    <div class="dropdown" onclick="document.location='news.html'">
+                        <button class="dropdown-button">Новости</button>
+                        <div class="dropdown-content">
+                            <a>2020</a>
+                        </div>
+                    </div>
+                    <!-- Меню -->
+                    <div class="dropdown" id="menu" onclick="document.location='menu.html'">
+                        <button class="dropdown-button">Меню</button>
+                        <div class="dropdown-content">
+                            <a>Основное меню</a>
+                            <a>Постное меню</a>
+                            <a>Барная карта</a>
+                            <a>Детское меню</a>
+                            <a>Банкетное меню</a>
+                        </div>
+                    </div>
+                    <!-- Банкет -->
+                    <button class="dropdown-button" onclick="document.location='banket.html'">Банкет</button>
+                    <!-- Детям -->
+                    <button class="dropdown-button" onclick="document.location='kids.html'">Детям</button>
+                    <!-- Галерея -->
+                    <div class="dropdown" id="galery" onclick="document.location='galery.html'">
+                        <button class="dropdown-button">Галерея</button>
+                        <div class="dropdown-content">
+                            <a>Интерьер нового зала (банкетного) в 2022 году</a>
+                            <a>Интерьер ресторана в 2021 году</a>
+                            <a>Интерьер ресторана 2018-2019</a>
+                            <a>Мастер-класс 03 ноября 2019 г.</a>
+                            <a>Фото блюд 31 октября 2019 г.</a>
+                            <a>День рождение 05 октября 2019 г.</a>
+                            <a>Празднование 9 мая в 2019 году</a>
+                            <a>Юбилей - 01 декабря 2017 год</a>
+                            <a>Новое меню A'la Russe</a>
+                            <a>Интерьер ресторана в 2017 году</a>
+                            <a>Фото блюд</a>
+                            <a>Женский день 8 марта 2017</a>
+                            <a>Фотоотчет 23 октября 2016 мастер-класс "Готовим пирожное "Картошка"</a>
+                            <a>Фотоотчет 16 октября 2016 "Школа юных барменов"</a>
+                            <a>Фотоотчет 09 октября 2016 мастер-класс "Готовим канапе"</a>
+                            <a>Фотоотчет 24 апреля 2016 мастер-класс "Готовим воздушные кексы"</a>
+                            <a>Фотоотчет 17 апреля 2016 мастер-класс "Готовим сладкое печенье"</a>
+                            <a>Фотоотчет 10 апреля 2016 мастер-класс "Готовим эклеры"</a>
+                            <a>Фотоотчет 3 апреля 2016 мастер-класс "Учимся готовить пиццу"</a>
+                            <a>Фото банкетного зала</a>
+                            <a>Нам 3 года!</a>
+                            <a>Наша кухня</a>
+                            <a>Интерьер банкетного зала</a>
+                            <a>Открытие ресторана </a>
+                        </div>
+                    </div>
+                    <!-- Контакты -->
+                    <button class="dropdown-button" onclick="document.location='contacts.html'">Контакты</button>
+                    <!-- Отзывы -->
+                    <button class="dropdown-button" onclick="document.location='reviews.html'">Отзывы</button>
+                    <!-- English -->
+                    <button class="dropdown-button" id="change-language">
+                        <img src="images/flagen.png" />
+                        <a href="english.html">English</a>
+                    </button>
+                </div>
+                <div class="base">
+                    <div class="info">
+                        <a href="http://dostavka.vinegreat.ru/" id="order-online">
+                            <img src="images/online.jpg" />
+                        </a>
+                        <div class="feedback-block">
+                            <div class="feedback-block-header">
+                                <h3 id="feedback-block-title">Отзывы</h3>
+                                <div class="respmark">
+                                    <h3 id="rating">8,1</h3>
+                                </div>
+                            </div>
+                            <ul>
+                                <li class="restoclub">
+                                    <a href="http://www.restoclub.ru/site/all/main/27075">Мы на Restoclub</a>
+                                </li>
+                                <li class="allcafe">
+                                    <a href="http://spb.allcafe.ru/restaurants/vinegret"> Мы на allcafe </a>
+                                </li>
+                            </ul>
+                            <a class="print-page">Распечатать страницу</a>
+                        </div>
+                    </div>
+                    <div class="about">
+                        <h1>All about "Vinaigrette" Morskaya Nabereznaya, 9</h1>
+                        <div class="content">
+                            <strong>Our menu</strong>
+                            <br />
+                            <br />
+                            <br />
+                            <br />
+                            <strong>Our dishes</strong>
+                            <br />
+                            <br />
+                            <div class="photos">
+                                <p>
+                                    <a class="photo" href="images/english/big 1.jpg" target="_blank">
+                                        <img src="images/english/1.jpg" />
+                                    </a>
+                                    <a class="photo" href="images/english/big 2.jpg" target="_blank">
+                                        <img src="images/english/2.jpg" />
+                                    </a>
+                                    <a class="photo" href="images/english/big 3.jpg" target="_blank">
+                                        <img src="images/english/3.jpg" />
+                                    </a>
+                                </p>
+                                <p>
+                                    <a class="photo" href="images/english/big 4.jpg" target="_blank">
+                                        <img src="images/english/4.jpg" />
+                                    </a>
+                                    <a class="photo" href="images/english/big 5.jpg" target="_blank">
+                                        <img src="images/english/5.jpg" />
+                                    </a>
+                                </p>
+                            </div>
+                            <br />
+                            <strong>Restaurant "Vinaigrette"</strong>
+                            <br />
+                            <div class="description">
+                                <p>
+                                    Vinaigrette — is not only the most famous salad in our country, French sauce based on wine, but also became the all-season terrace on Vasilevsky Island near the
+                                    hotel "Park Inn by Radisson, Pribaltiyskaya".
+                                </p>
+                                <p>
+                                    Because of "Vinaigrette" location it’s not a large-scale urban project, but rather a restaurant "for the neighbors." And not only just for neighbors, but also for
+                                    those who come to us as home, who we know in face by name, and whom we meet as an old acquaintance.
+                                </p>
+                                <p>
+                                    In the menu we decided not to drive themselves to the limits any one direction, so we are "navinegretili" (mixed) all that we thinking tasty, interesting and worthy
+                                    of our restaurant. So here you can find Author's, European, Russian, Uzbek, Georgian cuisine and special offers for children.
+                                </p>
+                            </div>
+                            <strong>Contacts</strong>
+                            <br />
+                            <br />
+                            <br />
+                            <strong>You will never forget "Vinaigrette"!</strong>
+                            <br />
+                            <br />
+                            <div class="contacts-table">
+                                <table>
+                                    <tbody>
+                                        <tr>
+                                            <td><b>Address</b></td>
+                                            <td>199226, St. Petersburg, Vasilevsky Island, Morskaya Nabereznaya, 9</td>
+                                        </tr>
+                                        <tr>
+                                            <td><b>Reservations</b></td>
+                                            <td>+7 (812) 355-18-67</td>
+                                        </tr>
+                                        <tr>
+                                            <td><b>E-mail</b></td>
+                                            <td><a class="email" href="info@vinegreat.ru">info@vinegreat.ru</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td><b>Opening hours</b></td>
+                                            <td>From 12.00 to 24.00</td>
+                                        </tr>
+                                        <tr>
+                                            <td><b>Kitchen</b></td>
+                                            <td>Author's, Russian, European, Uzbek, Georgian cuisine</td>
+                                        </tr>
+                                        <tr>
+                                            <td><b>Features</b></td>
+                                            <td>Chef's menu, children's menu, homemade desserts, homemade baking, cakes to order, take-away food</td>
+                                        </tr>
+                                        <tr>
+                                            <td><b>Entertainment</b></td>
+                                            <td>Sports broadcasts on a large screen, Wi-Fi, cooking classes from chef</td>
+                                        </tr>
+                                        <tr>
+                                            <td><b>Children </b></td>
+                                            <td>Children's menu, highchairs, crayons / coloring</td>
+                                        </tr>
+                                        <tr>
+                                            <td><b>An ideal place for</b></td>
+                                            <td>Banquets, business meetings, Friends, Corporate holidays, Romance Dates, Wedding Party, Family Dinner</td>
+                                        </tr>
+                                        <tr>
+                                            <td><b>Service of tourist groups</b></td>
+                                            <td>Up to 50 people</td>
+                                        </tr>
+                                        <tr>
+                                            <td><b>Number of halls</b></td>
+                                            <td></td>
+                                        </tr>
+                                        <tr>
+                                            <td><b>Average bill</b></td>
+                                            <td>From 400 to 1,000 rubles</td>
+                                        </tr>
+                                        <tr>
+                                            <td><b>Credit cards</b></td>
+                                            <td>Maestro, Master Card, Visa, Visa Electron, Visa Maestro</td>
+                                        </tr>
+                                        <tr>
+                                            <td><b>Discount cards</b></td>
+                                            <td>Restaurant’s cards 10% discount — for regular visitors</td>
+                                        </tr>
+                                        <tr>
+                                            <td><b>Music</b></td>
+                                            <td>Background music, live music on request (for banquets)</td>
+                                        </tr>
+                                        <tr>
+                                            <td><b>Parking</b></td>
+                                            <td>There is free parking</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <br />
+                            <div class="googlemaps">
+                                <iframe
+                                    frameborder="0"
+                                    height="360"
+                                    marginheight="0"
+                                    marginwidth="0"
+                                    scrolling="no"
+                                    src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=%D1%80%D0%B5%D1%81%D1%82%D0%BE%D1%80%D0%B0%D0%BD+%D0%B2%D0%B8%D0%BD%D0%B5%D0%B3%D1%80%D0%B5%D1%82+%D0%BF%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3&amp;aq=&amp;sll=37.0625,-95.677068&amp;sspn=65.772864,107.138672&amp;vpsrc=6&amp;ie=UTF8&amp;hq=%D1%80%D0%B5%D1%81%D1%82%D0%BE%D1%80%D0%B0%D0%BD+%D0%B2%D0%B8%D0%BD%D0%B5%D0%B3%D1%80%D0%B5%D1%82&amp;hnear=St+Petersburg,+Russia&amp;t=m&amp;ll=59.94016,30.217381&amp;spn=0.007739,0.029998&amp;z=15&amp;iwloc=A&amp;output=embed"
+                                    width="700"></iframe>
+                            </div>
+                            <a
+                                href="http://maps.google.com/maps?f=q&source=embed&hl=en&geocode=&q=%D1%80%D0%B5%D1%81%D1%82%D0%BE%D1%80%D0%B0%D0%BD+%D0%B2%D0%B8%D0%BD%D0%B5%D0%B3%D1%80%D0%B5%D1%82+%D0%BF%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3&aq=&sll=37.0625,-95.677068&sspn=65.772864,107.138672&vpsrc=6&ie=UTF8&hq=%D1%80%D0%B5%D1%81%D1%82%D0%BE%D1%80%D0%B0%D0%BD+%D0%B2%D0%B8%D0%BD%D0%B5%D0%B3%D1%80%D0%B5%D1%82&hnear=St+Petersburg,+Russia&t=m&ll=59.94016,30.217381&spn=0.007739,0.029998&z=15&iwloc=A"
+                                class="view-larger-map"
+                                >View Larger Map</a
+                            >
+                            <br />
+                            <br />
+                            <br />
+                            <div class="socials">
+                                <div class="share-dropdown-onclick">
+                                    <a id="share-button"> Поделиться </a>
+                                    <div class="share-dropdown-content">
+                                        <a>Поделитесь с друзьями</a>
+                                        <ul>
+                                            <li id="vk">
+                                                <a
+                                                    href="https://share.yandex.net/go.xml?service=vkontakte&url=http%3A%2F%2Fwww.vinegreat.ru%2F&title=%D0%A0%D0%B5%D1%81%D1%82%D0%BE%D1%80%D0%B0%D0%BD%20%C2%AB%D0%92%D0%B8%D0%BD%D0%B5%D0%B3%D1%80%D0%B5%D1%82%C2%BB%2C%20%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3"
+                                                    >ВКонтакте</a
+                                                >
+                                            </li>
+                                            <li id="odnoklassniki">
+                                                <a
+                                                    href="https://share.yandex.net/go.xml?service=odnoklassniki&url=http%3A%2F%2Fwww.vinegreat.ru%2F&title=%D0%A0%D0%B5%D1%81%D1%82%D0%BE%D1%80%D0%B0%D0%BD%20%C2%AB%D0%92%D0%B8%D0%BD%D0%B5%D0%B3%D1%80%D0%B5%D1%82%C2%BB%2C%20%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3"
+                                                    >Одноклассники</a
+                                                >
+                                            </li>
+                                            <li id="twitter">
+                                                <a
+                                                    href="https://share.yandex.net/go.xml?service=twitter&url=http%3A%2F%2Fwww.vinegreat.ru%2F&title=%D0%A0%D0%B5%D1%81%D1%82%D0%BE%D1%80%D0%B0%D0%BD%20%C2%AB%D0%92%D0%B8%D0%BD%D0%B5%D0%B3%D1%80%D0%B5%D1%82%C2%BB%2C%20%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3"
+                                                    >Twitter</a
+                                                >
+                                            </li>
+                                            <li id="facebook">
+                                                <a
+                                                    href="https://share.yandex.net/go.xml?service=facebook&url=http%3A%2F%2Fwww.vinegreat.ru%2F&title=%D0%A0%D0%B5%D1%81%D1%82%D0%BE%D1%80%D0%B0%D0%BD%20%C2%AB%D0%92%D0%B8%D0%BD%D0%B5%D0%B3%D1%80%D0%B5%D1%82%C2%BB%2C%20%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3"
+                                                    >Facebook</a
+                                                >
+                                            </li>
+                                            <li id="mailru">
+                                                <a
+                                                    href="https://share.yandex.net/go.xml?service=moimir&url=http%3A%2F%2Fwww.vinegreat.ru%2F&title=%D0%A0%D0%B5%D1%81%D1%82%D0%BE%D1%80%D0%B0%D0%BD%20%C2%AB%D0%92%D0%B8%D0%BD%D0%B5%D0%B3%D1%80%D0%B5%D1%82%C2%BB%2C%20%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3"
+                                                    >Мой Мир</a
+                                                >
+                                            </li>
+                                            <li id="livejournal">
+                                                <a
+                                                    href="https://share.yandex.net/go.xml?service=lj&url=http%3A%2F%2Fwww.vinegreat.ru%2F&title=%D0%A0%D0%B5%D1%81%D1%82%D0%BE%D1%80%D0%B0%D0%BD%20%C2%AB%D0%92%D0%B8%D0%BD%D0%B5%D0%B3%D1%80%D0%B5%D1%82%C2%BB%2C%20%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3"
+                                                    >LiveJournal</a
+                                                >
+                                            </li>
+                                            <li id="googleplus">
+                                                <a
+                                                    href="https://share.yandex.net/go.xml?service=gplus&url=http%3A%2F%2Fwww.vinegreat.ru%2F&title=%D0%A0%D0%B5%D1%81%D1%82%D0%BE%D1%80%D0%B0%D0%BD%20%C2%AB%D0%92%D0%B8%D0%BD%D0%B5%D0%B3%D1%80%D0%B5%D1%82%C2%BB%2C%20%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3"
+                                                    >Google Plus</a
+                                                >
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <a
+                                    class="vk"
+                                    href="https://share.yandex.net/go.xml?service=vkontakte&url=http%3A%2F%2Fwww.vinegreat.ru%2F&title=%D0%A0%D0%B5%D1%81%D1%82%D0%BE%D1%80%D0%B0%D0%BD%20%C2%AB%D0%92%D0%B8%D0%BD%D0%B5%D0%B3%D1%80%D0%B5%D1%82%C2%BB%2C%20%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3"
+                                    title="ВКонтакте"></a>
+                                <a
+                                    class="facebook"
+                                    href="https://share.yandex.net/go.xml?service=facebook&url=http%3A%2F%2Fwww.vinegreat.ru%2F&title=%D0%A0%D0%B5%D1%81%D1%82%D0%BE%D1%80%D0%B0%D0%BD%20%C2%AB%D0%92%D0%B8%D0%BD%D0%B5%D0%B3%D1%80%D0%B5%D1%82%C2%BB%2C%20%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3"
+                                    title="Facebook"></a>
+                                <a
+                                    class="twitter"
+                                    href="https://share.yandex.net/go.xml?service=twitter&url=http%3A%2F%2Fwww.vinegreat.ru%2F&title=%D0%A0%D0%B5%D1%81%D1%82%D0%BE%D1%80%D0%B0%D0%BD%20%C2%AB%D0%92%D0%B8%D0%BD%D0%B5%D0%B3%D1%80%D0%B5%D1%82%C2%BB%2C%20%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3"
+                                    title="Twitter"></a>
+                                <a
+                                    class="ok"
+                                    href="https://share.yandex.net/go.xml?service=odnoklassniki&url=http%3A%2F%2Fwww.vinegreat.ru%2F&title=%D0%A0%D0%B5%D1%81%D1%82%D0%BE%D1%80%D0%B0%D0%BD%20%C2%AB%D0%92%D0%B8%D0%BD%D0%B5%D0%B3%D1%80%D0%B5%D1%82%C2%BB%2C%20%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3"
+                                    title="Одноклассники"></a>
+                                <a
+                                    class="mailru"
+                                    href="https://share.yandex.net/go.xml?service=moimir&url=http%3A%2F%2Fwww.vinegreat.ru%2F&title=%D0%A0%D0%B5%D1%81%D1%82%D0%BE%D1%80%D0%B0%D0%BD%20%C2%AB%D0%92%D0%B8%D0%BD%D0%B5%D0%B3%D1%80%D0%B5%D1%82%C2%BB%2C%20%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3"
+                                    title="Мой Мир"></a>
+                                <a
+                                    class="livejournal"
+                                    href="https://share.yandex.net/go.xml?service=lj&url=http%3A%2F%2Fwww.vinegreat.ru%2F&title=%D0%A0%D0%B5%D1%81%D1%82%D0%BE%D1%80%D0%B0%D0%BD%20%C2%AB%D0%92%D0%B8%D0%BD%D0%B5%D0%B3%D1%80%D0%B5%D1%82%C2%BB%2C%20%D0%A1%D0%B0%D0%BD%D0%BA%D1%82-%D0%9F%D0%B5%D1%82%D0%B5%D1%80%D0%B1%D1%83%D1%80%D0%B3"
+                                    title="LiveJournal"></a>
+                            </div>
+
+                            <div id="buttons">
+                                <a class="link">Отзывы</a>
+                                <a class="link">Главная →</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="footer-main-contacts">
+                    <div class="footer-address">
+                        <a>
+                            Санкт-Петербург, Васильевский остров,
+                            <a href="http://www.vinegreat.ru/ru/adres/#map">
+                                <u>Морская набережная, 9</u>
+                            </a>
+
+                            <br />
+                            <a>Ежедневно <b>с 12 до 24</b></a>
+                            <br />
+                            <br />
+                            <strong>
+                                <a href="tel:+78123551867">(812) 355-18-67</a>
+                            </strong>
+                            <br />
+                            <a href="mailto:info@vinegreat.ru"> info@vinegreat.ru </a>
+                        </a>
+                    </div>
+                    <div class="footer-siteinfo">
+                        <img class="footer-logo" src="images/logo.png" />
+                        <div class="footer-copyright">
+                            <a>© Ресторан «Винегрет», 2024. Все права защищены</a>
+                            <br />
+                            <a>Настоящий сайт имеет информационно-справочный характер и ни при каких обстоятельствах не является публичной офертой.</a>
+
+                            <br />
+                            <a id="site-map" href="http://www.vinegreat.ru/ru/sitemap/">Карта сайта</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

@@ -159,6 +159,11 @@ body {
     margin-right: 5px;
 }
 
+#change-language a {
+    text-decoration: none;
+    color: #9e235c;
+}
+
 #galery .dropdown-content,
 #menu .dropdown-content {
     color: #eb4f1c;
